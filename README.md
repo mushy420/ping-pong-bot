@@ -15,6 +15,3 @@ This bot implements the following best practices:
 4. Implements error handling to prevent the bot from crashing on command errors.
 5. Uses async/await for better handling of asynchronous operations.
 6. Provides a more informative ping response, including the latency.
-
-
-The bot will respond to the `!ping` command with "Pong!" followed by the latency in milliseconds. You can easily add more commands by creating new files in the `commands` directory following the same structure as the `ping.js` file.
